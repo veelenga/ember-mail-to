@@ -1,0 +1,1 @@
+export { default } from 'ember-mail-to/components/mail-to';

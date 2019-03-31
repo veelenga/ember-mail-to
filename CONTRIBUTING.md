@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd ember-mailto`
+* `cd ember-mail-to`
 * `npm install`
 
 ## Linting

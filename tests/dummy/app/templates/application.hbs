@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
+<MailTo @to="to@gmail.com" > Send email 1 </MailTo>
 
-{{outlet}}
+<br>
+
+<MailTo
+  @to="to@gmail.com"
+  @cc={{array "cc1@gmail.com" "cc2@gmail.com"}}
+  @bcc="bcc@gmail.com"
+  @subject="Email subject"
+  @body="Email body"
+>
+  Send email 2
+</MailTo>

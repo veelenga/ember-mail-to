@@ -1,28 +1,38 @@
-ember-mailto
+ember-mail-to
 ==============================================================================
 
-[Short description of the addon.]
-
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
-
+Ember component to create [HTML mailto links](https://tools.ietf.org/html/rfc6068).
 
 Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-mailto
+ember install ember-mail-to
 ```
 
 
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```hbs
+<MailTo
+  @to='to@gmail.com'
+  @cc={{array 'cc1@gmail.com' 'cc2@gmail.com'}}
+  @bcc='bcc@gmail.com'
+  @subject='Email Subject'
+  @body='Email Body'
+>
+  Click here to send an email
+</MailTo>
+```
+
+Creates the following element:
+
+```html
+<a href="mailto:to@gmail.com?cc=cc1@gmail.com,cc2@gmail.com&amp;bcc=bcc@gmail.com&amp;subject=Email%20Subject&amp;body=Email%20Body">
+  Click here to send an email
+</a>
+```
 
 
 License
