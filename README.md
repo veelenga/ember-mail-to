@@ -1,6 +1,8 @@
 ember-mail-to
 ==============================================================================
 
+![](https://travis-ci.org/veelenga/ember-mail-to.svg?branch=master)
+
 Ember component to create [HTML mailto links](https://tools.ietf.org/html/rfc6068).
 
 Installation
