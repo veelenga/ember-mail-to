@@ -3,6 +3,7 @@ ember-mail-to
 
 ![travis](https://travis-ci.org/veelenga/ember-mail-to.svg?branch=master)
 ![npm](https://img.shields.io/npm/v/ember-mail-to.svg?color=blue)
+![Ember Observer Score](https://emberobserver.com/badges/ember-mail-to.svg)
 
 Ember component to create [HTML mailto links](https://tools.ietf.org/html/rfc6068).
 
