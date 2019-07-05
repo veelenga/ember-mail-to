@@ -16,6 +16,9 @@ export default Component.extend({
 
   prefix: Object.freeze('mailto'),
 
+  tagName: 'a',
+  attributeBindings: ['href'],
+
   to: null,
   cc: null,
   bcc: null,

@@ -11,6 +11,15 @@ function getLink(element) {
 module('Integration | Component | mail-to', function(hooks) {
   setupRenderingTest(hooks);
 
+  test('it renders mail-to link with a tag element', async function(assert) {
+    await render(hbs`
+      {{#mail-to to='to@gmail.com'}} Click me! {{/mail-to}}
+    `);
+
+    assert.equal(this.element.childElementCount, 1);
+    assert.equal(this.element.children[0].tagName, "A");
+  });
+
   test('it renders mail-to link with TO', async function(assert) {
     await render(hbs`
       {{#mail-to to='to@gmail.com'}} Click me! {{/mail-to}}

@@ -1,7 +1,7 @@
-.bold-link {
+a.bold-link {
   font-weight: bold;
 }
 
-.bold-link a {
+a.bold-link {
   text-decoration: none;
 }
