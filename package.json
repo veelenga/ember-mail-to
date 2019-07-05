@@ -1,6 +1,6 @@
 {
   "name": "ember-mail-to",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helpers for mail-to links",
   "keywords": [
     "ember-addon",
